@@ -1,0 +1,261 @@
+*{
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* first row */
+.firstline{
+    display: flex;
+    margin: 30px;
+
+} 
+.number1{
+    display: inline-block;
+    width: 25vw;
+    height:65vh;
+    background-color: bisque;
+    margin-right: 15px;
+}
+.number2{
+    display: inline-block;
+    width: 25vw;
+    height: 65vh;
+    background-color: bisque;
+    margin-right: 15px;
+}
+.number3{
+    display: inline-block;
+    width: 25vw;
+    height: 65vh;
+    background-color: bisque;
+    margin-right: 15px;
+}
+.number4{
+    display: inline-block;
+    width: 25vw;
+    height: 65vh;
+    background-color: bisque;
+    margin-right: 15px;
+}
+img{
+    width: 23vw;
+    height: 30vh;
+    
+}
+.details{
+    background-color: bisque;
+    text-align: center;
+}
+h3{
+    background-color: bisque;
+}
+.details p {
+    background-color: bisque;
+}
+span{
+    background-color: bisque;
+    font-weight: 29;
+}
+button{
+    width: 16rem;
+    height: 3rem;
+    display: inline-block;
+    background-color: coral;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.firstnav{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    /* padding-top: 16px;
+    padding-left: 15px; */
+    padding: 18px;
+    background-color: #f7f6f4;
+}
+.named {
+    background-color: #f7f6f4;
+    margin-left: 65px;
+}
+.named a {
+    padding-left: 25px;
+    text-decoration: none;
+    background-color: #f7f6f4;
+}
+.phone {
+    display: inline-flex;
+    margin-left: 300px;
+    background-color: #f7f6f4;
+}
+.phone p{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f6f4;
+}
+.phone a img {
+    width: 32px;
+    height: 32px;
+    background-color: #f7f6f4;
+    margin-left: 10px;
+}
+.phone a {
+    background-color: #f7f6f4;
+    text-decoration: none;
+    color: dodgerblue;
+}
+.flag{
+    display: flex;
+    margin-left: 150px;
+    border: 1px solid rgb(206,205,203);
+    border-radius: 25px;
+    height: 7vh;
+    width: 8vw;
+    background-color: #f7f6f4;
+    align-items: center;
+    margin-top: -10px;
+}
+.flag a img{
+    width: 16px;
+    height: 16px;
+    background-color: #f7f6f4;
+    margin-left: 12px;
+    padding: 0px;
+    margin-right: 10px;
+}
+.flag a {
+    background-color: #f7f6f4;
+    text-decoration: none;
+}
+.secondnav {background-color:  rgb(236,232,217) ;
+    padding-left: 88px;
+    padding-top: 28px;
+    height: 82vh;
+    width: 100%;
+}
+.top {
+    display: flex;
+
+    background-color: rgb(236,232,217);
+}
+.prlogo img {
+    width: 140px;
+    height: 36px;
+    background-color:  rgb(236,232,217);
+}
+.prlogo{
+    background-color:  rgb(236,232,217);
+}
+.toplink {
+    background-color:  rgb(236,232,217);
+    margin-left: 260px;
+    margin-top: 8px;
+}
+.top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.toplink a{
+    background-color:  rgb(236,232,217);
+    text-decoration: none;
+    padding-left: 25px;
+}
+.topshop img {
+    width: 32px;
+    height: 32px;
+    background-color:  rgb(236,232,217);
+    margin-top: 8px;
+    margin-left: 45px;
+}
+.topshop{ background-color:  rgb(236,232,217);
+    margin-left: 15px;
+}
+.topsign {
+    margin-left: 28px;
+    background-color:  rgb(236,232,217);
+    margin-top: 8px;
+    display: flex;
+}
+.topsign a { background-color:  rgb(236,232,217);
+    padding-left: 10px;
+    text-decoration: none;
+}
+.signin a {
+    color: red;
+    background-color:  rgb(236,232,217);
+    text-decoration: none;
+}
+.signin {
+    background-color:  rgb(236,232,217);
+}
+.bottomnav {
+    display: flex;
+    background-color: rgb(236,232,217);
+    margin-top: 80px;
+}
+.but1{
+    background-color: rgb(236,232,217);
+}
+.but1 h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: dm,serif;
+    background-color: rgb(236,232,217);
+    width: 400px;
+    color: #384a62;
+}
+.under {
+    background-color: rgb(236,232,217);
+    color: #708095;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.carding{
+    margin-left: 300px;
+    background-color: rgb(236,232,217);
+}
+.carding img {
+    width: 450px;
+    height: 350px;
+    background-color: rgb(236,232,217);
+}
+.buttum {
+    margin-top: 20px;
+    width: 500px;
+}
+input{
+    height: 80px;
+    width: 300px;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: none;
+    color: dimgrey;
+}
+.input img {
+    width: 3vw;
+    height: 3vh;
+    margin-left: 150px;
+}
+.mask {
+    background-color: coral;
+    width: 100%;
+    height: 10vh;
+    padding-top: 20px ;
+
+}
+.mask a {
+    text-align: center;
+    text-decoration: none;
+    background-color: coral;
+    color: #f7f6f4;
+}
+marquee{
+    background-color: coral;
+    color: #f7f6f4;
+}
